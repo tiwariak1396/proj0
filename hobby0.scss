@@ -1,0 +1,56 @@
+$color1: yellow;
+$color2: red;
+
+   %style0 {
+  border: 1px solid black;
+  font-size: 15px;
+  font-family: sans-serif;
+  display: inline-block;
+  padding: 3px;
+  margin:2px;
+ }
+
+.hobcolr1 {
+  @extend %style0;
+  background-color: $color1; }
+
+.hobcolr2 {
+  @extend %style0;
+  background-color: $color2; }
+
+.hobcolr3{
+  @extend %style0;
+ background-color: lightgreen;
+
+}
+.hobcolr4{
+  @extend %style0;
+ background-color: lightpink;
+
+}
+%style1{
+  border:1px solid black;
+  font-weight: bold;
+  font-family: cursive;
+  padding: 2px;
+
+
+}
+
+ #s1{
+   @extend %style1;
+   background-color: yellow;
+   }
+ #s2{
+   @extend %style1;
+   background-color: red;
+ }
+ #s3{
+   @extend %style1;
+   background-color: lightgreen;
+
+ }
+ #s4{
+   @extend %style1;
+   background-color: lightpink;
+ }
