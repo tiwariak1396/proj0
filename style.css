@@ -1,0 +1,42 @@
+table{
+  border: 2px solid black;
+ border-collapse:collapse;
+ width:50%;
+}
+th,td{
+  border: 1px solid black;
+  padding: 5px;
+  text-align:center;
+}
+th{
+  background-color:grey;
+}
+ .name {
+     background-color:greenyellow;
+   }
+ .img1 {
+    border:solid black;
+ }
+ h3 {
+   text-align: center;
+ }
+.grid{
+  background-color: aliceblue;
+  display: grid;
+  padding:20px;
+  grid-column-gap:20px;
+  grid-row-gap:10px;
+  grid-template-columns:auto auto auto;
+}
+.grid-itemh{
+  background-color:lightgrey;
+  font-size:20px;
+  padding:20px;
+  text-align:center;
+}
+.grid-item{
+  background-color:springgreen;
+  font-size:20px;
+  padding:20px;
+  text-align:center;
+}

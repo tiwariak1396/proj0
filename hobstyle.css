@@ -1,0 +1,10 @@
+@media(min-width:800px){
+ h4::before{
+   content:"Below are the colours related to each employee, which will include their hobbies -";
+ }
+}
+@media(max-width:799px){
+  h4::before{
+    content:"Colour-Hobby mapping -";
+  }
+}
